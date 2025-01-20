@@ -9,8 +9,67 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#3972F0",
+        secondary: "#3E3B5B",
+        card: "#FFFFFF",
+        normal: "#2ED74D",
+        warning: "#FFD444",
+        abnormal: "#FE5757", 
+        unread: "#D6E3FF",
+      },
+      fontFamily: {
+        K2D: ["K2D", "serif"],
+      },
+      fontSize: {
+        display: [
+          "24px", 
+          {
+            lineHeight: "36px",
+            fontWeight: "700",
+          },
+        ],
+        title: [
+          "20px", 
+          {
+            lineHeight: "30px",
+            fontWeight: "700",
+          },
+        ],
+        headline: [
+          "18px",
+          {
+            lineHeight: "27px",
+            fontWeight: "500",
+          },
+        ],
+        description: [
+          "16px", 
+          {
+            lineHeight: "24px",
+            fontWeight: "400",
+          },
+        ],
+        tag: [
+          "14px", 
+          {
+            lineHeight: "21px",
+            fontWeight: "500",
+          },
+        ],
+        button: [
+          "16px", 
+          {
+            lineHeight: "24px",
+            fontWeight: "700",
+          },
+        ],
+        "sub-button": [
+          "14px", 
+          {
+            lineHeight: "21px",
+            fontWeight: "500",
+          },
+        ],
       },
     },
   },

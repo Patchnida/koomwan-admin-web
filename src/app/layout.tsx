@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex w-full h-screen">
-        <div className="flex w-2/6 h-full"> 
+        <div className="flex w-1/6 h-full"> 
           <MenuBar /> 
         </div>
-        <div className="w-4/6 h-full overflow-auto">
+        <div className="w-5/6 h-full overflow-auto">
           {children}
         </div>
       </body>
