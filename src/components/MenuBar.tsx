@@ -45,7 +45,7 @@ export default function MenuBar() {
     return (
         <div className="flex flex-col items-center w-full h-full bg-white drop-shadow-md px-4">
             <div className="flex flex-col items-center w-full border-b-2 p-4">
-                <div className="flex items-center justify-center mb-4">
+                <div className="flex items-center justify-center mb-2">
                     <Image
                         src="/assets/koomwanIcon.png"
                         alt="logo"

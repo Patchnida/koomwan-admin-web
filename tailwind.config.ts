@@ -10,12 +10,15 @@ export default {
     extend: {
       colors: {
         primary: "#3972F0",
+        hoverPrimary: "#386de3",
         secondary: "#3E3B5B",
         card: "#FFFFFF",
         normal: "#2ED74D",
         warning: "#FFD444",
         abnormal: "#FE5757", 
+        hoverRead: "#F5F5F5",
         unread: "#D6E3FF",
+        hoverUnread:"#C9DAFF",
       },
       fontFamily: {
         K2D: ["K2D", "serif"],

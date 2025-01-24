@@ -1,8 +1,12 @@
-export default function ForumManagement() {
-    return (
-      <div>
-          <p>จัดการฟอรั่ม</p>
-      </div>
-    );
-  }
-  
+'use client';
+
+import React from "react";
+import ForumTable from "./components/ForumTable";
+
+export default function MedicalManagement() {
+  return (
+    <div>
+      <ForumTable />
+    </div>
+  );
+}
